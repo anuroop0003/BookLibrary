@@ -6,7 +6,7 @@ function RenderFn(books) {
 }
 
 function renderBooks(element) {
-  var OlNode = document.createElement("ol");
+  var OlNode = document.createElement("ul");
   OlNode.setAttribute("class", "Olclass");
   ListDiv.appendChild(OlNode);
   var liNode = document.createElement("li");
